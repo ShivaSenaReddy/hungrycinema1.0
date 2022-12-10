@@ -7,6 +7,7 @@ import CardList from './CardList';
 import MoviesData from './Data/MoviesData';
 import TeluguMoviesData from './Data/TeluguMoviesData';
 import TamilMoviesData from './Data/TamilMoviesData';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <CardList Data={TeluguMoviesData} />
           <h2>Pongal Tamil Movies</h2>
           <CardList Data={TamilMoviesData} />
+          <Footer/>
     </div>
   );
 }
