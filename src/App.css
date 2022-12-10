@@ -63,12 +63,14 @@ a {
 /*Header*/
 .header >img{
     width:100%;
+    
 }
 
 /*Card and Cardlist*/
 
 .Card--poster{
     height:300px;
+    width:200px;
     border-radius:10px;
 }
 
@@ -76,7 +78,7 @@ a {
     display:flex;
     gap:10px;
     overflow-x:scroll;
-   
+   padding:32px 16px;
 }
 .Card {
     align-content: center;
@@ -96,3 +98,17 @@ a {
     border: 2px solid #087f5b;
 }
 
+
+@media only screen and (max-width: 600px) {
+    body{
+        font-size:8px;
+    }
+    h2 {
+        font-size:16px;
+    }
+    .Card--poster {
+        height: 150px;
+        width: 100px;
+        border-radius: 7px;
+    }
+}
