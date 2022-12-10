@@ -23,9 +23,9 @@ a {
 }
 .App {
     font-family: 'Roboto', sans-serif;
-    width:80%;
-    margin:0 auto;
-   
+    width: 80%;
+    margin: 0 auto;
+    color: #343a40;
 }
 
 .website--logo{

@@ -6,5 +6,7 @@ export default function Navigation() {
                 <li><a href='#' className='Navigation--links'>TV Shows</a></li>
                 <li><a href='#' className='Navigation--links'>Anime</a></li>**/}
         </ul>
+       
         </nav>)
 }
+<p>One Stop destination for all movie lovers</p>
