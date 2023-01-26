@@ -19,9 +19,9 @@ function App() {
                 <div className='Navigation'>
                     <ul>
                         <li><Link to='/' className='Navigation--links'>Hungry Cinema</Link></li>
-                        <li><Link to='#/Movies' className='Navigation--links'>Movies</Link></li>
-                        <li><Link to='#/Tvshows' className='Navigation--links'>TV Shows</Link></li>
-                        <li><Link to='#/Anime' className='Navigation--links'>Anime</Link></li>
+                        <li><Link to='/Movies' className='Navigation--links'>Movies</Link></li>
+                        <li><Link to='/Tvshows' className='Navigation--links'>TV Shows</Link></li>
+                        <li><Link to='/Anime' className='Navigation--links'>Anime</Link></li>
                     </ul >
                 </div>
                 <Routes>
