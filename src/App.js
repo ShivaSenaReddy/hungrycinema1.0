@@ -14,7 +14,7 @@ import { FeelGoodMovies } from './Suggestions/Moviesugesstions/ComedyMovies';
 function App() {
 
     return (
-        <HashRouter>
+        <BrowserRouter>
             <div className="App">
                 <div className='Navigation'>
                     <ul>
@@ -33,7 +33,7 @@ function App() {
 
             </div>
 
-        </HashRouter >
+        </BrowserRouter >
 
     );
 }
