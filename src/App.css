@@ -6,21 +6,25 @@
 
 /*standard header texts */
 
-h2{
-    margin:20px;
+h2 {
+    margin: 20px;
 }
-p{
-    margin:10px;
+
+p {
+    margin: 10px;
 }
+
 a {
     color: #f8f9fa;
-    text-decoration:none;
+    text-decoration: none;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .App {
     font-family: 'Roboto', sans-serif;
     width: 80%;
@@ -28,9 +32,9 @@ a {
     color: #343a40;
 }
 
-.website--logo{
-    width:100px;
-    height:100px;
+.website--logo {
+    width: 100px;
+    height: 100px;
 }
 
 /** Navigation bar*/
@@ -38,57 +42,59 @@ a {
     background-color: #087f5b;
     width: 100%;
 }
-    .Navigation > ul {
+.Navigation > ul {
         padding: 16px 24px;
         display: flex;
         justify-content: space-between;
-        
-    }
-.Navigation >ul>li{
-    list-style:none;
-    flex-grow:1;
-    text-align:end;
-}
 
-.Navigation>ul>li:first-child{
-    flex-grow:3;
-    color:yellow;
-    text-align:start;
 }
+ .Navigation > ul > li {
+            list-style: none;
+            flex-grow: 1;
+            text-align: end;
+ }
+
+            .Navigation > ul > li:first-child {
+                flex-grow: 3;
+                color: yellow;
+                text-align: start;
+            }
 
 .Navigation--links {
     text-decoration: none;
     color: #f8f9fa;
 }
 /*Header*/
-.header >img{
-    width:100%;
-    
+.header > img {
+    width: 100%;
 }
 
 /*Card and Cardlist*/
 
-.Card--poster{
-    height:300px;
-    width:200px;
-    border-radius:10px;
+.Card--poster {
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
 }
 
-.CardList{
-    display:flex;
-    gap:10px;
-    overflow-x:scroll;
-   padding:32px 16px;
+.CardList {
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    padding: 32px 16px;
 }
+
 .Card {
     align-content: center;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.Card--release--date{
-   text-align:center;
+
+.Card--release--date {
+    text-align: center;
 }
+
 .Card--button {
     background-color: #087f5b;
     padding: 8px 4px;
@@ -97,18 +103,29 @@ a {
     border-radius: 12px;
     border: 2px solid #087f5b;
 }
+/**Suggestion Cards*/
 
+.Suggestion--Card {
+    display: flex;
+    flex-direction: column;
+}
 
+.Suggestion--Card--Header {
+    display: flex;
+}
 
-
+.Suggestion--Card--Header--title {
+    margin: 10px 3px;
+}
 /*Footer*/
 footer {
     margin-top: 50px;
     color: #868e96;
 }
-footer>p{
-    font-size:12px;
-}
+
+    footer > p {
+        font-size: 12px;
+    }
 
 @media only screen and (max-width: 600px) {
     body {
@@ -124,13 +141,12 @@ footer>p{
         width: 150px;
         border-radius: 7px;
     }
+
     .Card--button {
-     width:100%;
-    
+        width: 100%;
     }
+
     footer > p {
         font-size: 8px;
     }
-
-       
 }
