@@ -5,7 +5,7 @@ import Header from './Header';
 import Card from './Card';
 import CardList from './CardList';
 import Footer from './Footer';
-import { Link, BrowserRouter, Route, Routes } from "react-router-dom"
+import { Link, BrowserRouter, Route, Routes, HashRouter } from "react-router-dom"
 import Suggestion from "./Suggestions/Suggestion"
 import Home from './Home';
 import { Component } from 'react';
@@ -14,7 +14,7 @@ import { FeelGoodMovies } from './Suggestions/Moviesugesstions/ComedyMovies';
 function App() {
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <div className="App">
                 <div className='Navigation'>
                     <ul>
@@ -33,7 +33,7 @@ function App() {
 
             </div>
 
-        </BrowserRouter >
+        </HashRouter >
 
     );
 }
